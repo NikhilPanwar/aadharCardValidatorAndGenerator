@@ -30,7 +30,7 @@ def Generate(msg):
 
 
 count = int(input("How many aadhar numbers = "))
-i=0
+i = 0
 while i < count:
     defNum = str(r.randint(1111,9999)) + str(r.randint(1111,9999)) + str(r.randint(111,999))
     aNum = Generate(defNum)
@@ -40,4 +40,4 @@ while i < count:
         aNum = Generate(defNum)
         check = str(type(aNum))
     print(aNum)
-    i+=1
+    i += 1
