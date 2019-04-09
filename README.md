@@ -10,3 +10,9 @@ e.g. Amazon Pay, etc
 
 Services which cross check aadhar numbers with UIDAI servers will detect the generated aadhar numbers.
 e.g. Banks, etc
+
+Also available at Python Package Index
+
+```bash
+pip install aadhar
+```
